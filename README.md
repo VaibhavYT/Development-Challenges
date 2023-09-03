@@ -22,11 +22,18 @@ Whether you're a beginner looking to learn the basics or an experienced develope
 
 Our challenges cover various aspects of web and app development, including but not limited to:
 
-- Frontend Development (HTML, CSS, JavaScript)
-- Backend Development (Node.js, Python, Ruby)
-- Mobile App Development (iOS, Android)
-- Database Management (SQL, NoSQL)
-- Algorithmic Problem Solving
+### Frontend Development (HTML, CSS, JavaScript, ReactJS, NextJS)
+
+- [WEB - Responsive Product Catalog CH-1](FRONTEND/WEB/Responsive%20Product%20Catalog%20CH-1)
+
+### Backend Development (Node.js, Python, Ruby)
+
+### Mobile App Development (iOS, Android)
+
+### Database Management (SQL, NoSQL)
+
+### Algorithmic Problem Solving
+
 
 Each challenge comes with:
 
