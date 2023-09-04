@@ -1,8 +1,10 @@
 # Frontend Development Challenge 1: Responsive Product Catalog
 
 Welcome to the Frontend Development Challenge 1! 🚀 In this challenge, you will create a responsive webpage that displays a product catalog using Bootstrap. The catalog should have the following features:
+
 ## My Solution
-https://vaibhavyt.github.io/Development-Challenges/FRONTEND/WEB/Responsive%20Product%20Catalog%20CH-1/
+You can view my solution live [here](https://vaibhavyt.github.io/Development-Challenges/FRONTEND/WEB/Responsive%20Product%20Catalog%20CH-1/).
+
 ## Challenge Description
 
 Your task is to build a webpage with the following components:
@@ -20,12 +22,15 @@ Your task is to build a webpage with the following components:
 
 4. **Responsive Design**: Ensure that the product cards arrange themselves into multiple columns on larger screens and a single column on smaller screens. Make sure the page looks good on both desktop and mobile devices.
 
-## ScreenShot
-*** PC View ***
-![On Large Screen](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/65e7d613-7258-4e32-bf82-0226d455efbf)
-*** Mobile View ***
-![Small Screen](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/86aaa971-3664-431f-9fc8-b4c9e267218f)
+## Screenshots
 
+**PC View**
+
+![On Large Screen](https://github.com/VaibhavYT/Development-Challenges/raw/main/assets/78371075/65e7d613-7258-4e32-bf82-0226d455efbf.png)
+
+**Mobile View**
+
+![Small Screen](https://github.com/VaibhavYT/Development-Challenges/raw/main/assets/78371075/86aaa971-3664-431f-9fc8-b4c9e267218f.png)
 
 ## Instructions
 
@@ -33,7 +38,7 @@ You can use Bootstrap's grid system, components, and utility classes to achieve 
 
 ## Submission
 
-When you have completed the challenge, share your code or describe your approach in this repository. You must follow contribution steps given in main page.
+When you have completed the challenge, share your code or describe your approach in this repository. You must follow contribution steps given on the main page.
 
 ## Feedback and Assistance
 
