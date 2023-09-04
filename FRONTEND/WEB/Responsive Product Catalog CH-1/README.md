@@ -20,6 +20,13 @@ Your task is to build a webpage with the following components:
 
 4. **Responsive Design**: Ensure that the product cards arrange themselves into multiple columns on larger screens and a single column on smaller screens. Make sure the page looks good on both desktop and mobile devices.
 
+## ScreenShot
+*** PC View ***
+![On Large Screen](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/65e7d613-7258-4e32-bf82-0226d455efbf)
+*** Mobile View ***
+![Small Screen](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/86aaa971-3664-431f-9fc8-b4c9e267218f)
+
+
 ## Instructions
 
 You can use Bootstrap's grid system, components, and utility classes to achieve this challenge. Feel free to create a simple example or ask for more specific guidance on any part of the challenge.
