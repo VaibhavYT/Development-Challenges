@@ -26,11 +26,13 @@ Your task is to build a webpage with the following components:
 
 **PC View**
 
-![On Large Screen](https://github.com/VaibhavYT/Development-Challenges/raw/main/assets/78371075/65e7d613-7258-4e32-bf82-0226d455efbf.png)
+![Solution-1](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/d42924ef-5f93-46c5-9184-d28639f2ef22)
+
 
 **Mobile View**
 
-![Small Screen](https://github.com/VaibhavYT/Development-Challenges/raw/main/assets/78371075/86aaa971-3664-431f-9fc8-b4c9e267218f.png)
+![mobile-sol](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/1470c9e1-b928-4b84-b439-0014a484c49f)
+
 
 ## Instructions
 
