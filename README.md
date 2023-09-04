@@ -1,6 +1,8 @@
 # Developer Challenges Repository
 
-![Repository Logo](repository_logo.png)
+![img_back](https://github.com/VaibhavYT/Development-Challenges/assets/78371075/2f7d803f-3c48-4f76-a14a-e7ead2de6d37)
+
+
 
 Welcome to the Developer Challenges Repository! 🚀 This is your go-to resource for practical web and app development challenges to hone your coding skills and prepare for technical interviews.
 
