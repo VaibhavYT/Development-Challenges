@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Include Bootstrap CSS from a CDN (Content Delivery Network) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS for styling -->
+    <style>
+      /* Media query to center cards on screens with a maximum width of 768px */
+      @media (max-width: 768px) {
+        .center-cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+
+      /* Styling for card images */
+      .card img {
+        max-width: 100%;
+        height: auto;
+        padding: 4px;
+      }
+
+      /* Padding for the page title */
+      h1 {
+        padding-top: 15px;
+      }
+
+      /* Rainbow color shadow on card hover */
+      .card {
+        transition: box-shadow 0.3s ease;
+      }
+
+      .card:hover {
+        animation: rainbowShadow 3s infinite;
+        transform: scale(1.05);
+      }
+
+      @keyframes rainbowShadow {
+        0% {
+          box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+        }
+        14% {
+          box-shadow: 0 0 5px rgba(255, 127, 0, 0.8);
+        }
+        28% {
+          box-shadow: 0 0 5px rgba(255, 255, 0, 0.8);
+        }
+        42% {
+          box-shadow: 0 0 5px rgba(0, 255, 0, 0.8);
+        }
+        57% {
+          box-shadow: 0 0 5px rgba(0, 0, 255, 0.8);
+        }
+        71% {
+          box-shadow: 0 0 5px rgba(75, 0, 130, 0.8);
+        }
+        85% {
+          box-shadow: 0 0 5px rgba(148, 0, 211, 0.8);
+        }
+        100% {
+          box-shadow: 0 0 5px rgba(255, 0, 0, 0.8);
+        }
+      }
+    </style>
+
+    <title>Responsive Product Catalog</title>
+  </head>
+  <body>
+    <!-- Navigation bar using Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Home</a>
+        <!-- Navbar toggle button for mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Product</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact Us</a>
+            </li>
+
+            <li class="nav-item"></li>
+          </ul>
+          <!-- Search form in the navbar -->
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Page Title -->
+    <div class="container text-center">
+      <h1>Welcome To Product Catalog Page</h1>
+    </div>
+    <!-- Container for Cards -->
+    <div class="container col flex-sm-row">
+      <div class="row center-cards">
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/bike.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Bike</h5>
+            <p class="card-text">Buy this awesome Bike</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$345.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/car.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Car</h5>
+            <p class="card-text">Buy this awesome Car</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$8985.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/chair.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Chair</h5>
+            <p class="card-text">Buy this awesome Chair</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$15.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/cycle.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Cycle</h5>
+            <p class="card-text">Buy this awesome Cycle</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$55.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/house.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">House</h5>
+            <p class="card-text">Buy this awesome House</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$345.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img
+            src="./assets/images/keyboard.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Keyboard</h5>
+            <p class="card-text">Buy this awesome Keyboard</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$35.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img
+            src="./assets/images/laptop.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Laptop</h5>
+            <p class="card-text">Buy this awesome Laptop</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$455.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/mouse.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Mouse</h5>
+            <p class="card-text">Buy this awesome Mouse</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$15.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="card m-3 " style="width: 18rem">
+          <img src="./assets/images/phone.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Phone</h5>
+            <p class="card-text">Buy this awesome Phone</p>
+          </div>
+          <div class="card-footer">
+            <div class="d-flex justify-content-between">
+              <p>$95.0</p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Include Bootstrap JS from a CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
