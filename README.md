@@ -32,8 +32,7 @@ Our challenges cover various aspects of web and app development, including but n
 
 ### Full Stack
 
--[Web - Nextjs-prisma- todo app](FULL_STACK/prisma-nextjs-todo-app/README.md)
-
+- [Web - Nextjs-prisma- todo app](FULL_STACK/prisma-nextjs-todo-app/README.md)
 ### Mobile App Development (iOS, Android)
 
 ### Database Management (SQL, NoSQL)
