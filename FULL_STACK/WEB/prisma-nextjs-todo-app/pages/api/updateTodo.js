@@ -4,6 +4,9 @@ import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
 
 export default async (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000/');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   if (req.method === "PUT") {
     try {
       const { id, task, completed } = req.body;

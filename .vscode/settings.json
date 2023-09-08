@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
         "todos"
+    ],
+    "eslint.workingDirectories": [
+        "FRONTEND/WEB/Responsive Product Catalog CH-1",
+        "FULL_STACK/WEB/prisma-nextjs-todo-app",
+        
     ]
 }
